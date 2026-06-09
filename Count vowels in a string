@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main10 {
+    public static void main(String[]args){
+        String str = "Hello World";
+        int  Cnt = 0;
+
+        int n = str.length();
+        for(int i = 0; i<n; i++){
+             char ch = Character.toLowerCase(str.charAt(i));
+             if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+                Cnt++;
+             }
+        }
+        System.out.println("Vowels are : "+  Cnt);
+    }
+}
