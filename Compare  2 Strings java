@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class compare2strings {
+    public static  void main (String[]args){
+
+        Scanner sc = new Scanner(System.in);
+
+        String S1 = sc.nextLine();
+        String S2 = sc.nextLine();
+
+        S1 = S1.toLowerCase();
+        S2 = S2.toLowerCase();
+
+int Result = S1.compareTo(S2);
+
+         if(Result < 0){
+            System.out.print("-1");
+        
+        }
+
+        else if(Result > 0){
+
+
+
+
+            
+
+            System.out.print("1");
+        }
+        else{
+            System.out.print("0");
+        }
+    }
+}
