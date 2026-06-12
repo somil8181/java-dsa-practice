@@ -26,6 +26,6 @@ The main purpose of this  repository  is:
 
 
 
-  ## How to  Run  any   progrsms
+  ## How to  Run  any   programs
   1. Open any Java file 
   2. Compile the program  (On  online compiler and  vs code )
