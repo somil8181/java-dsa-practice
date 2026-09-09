@@ -1,0 +1,25 @@
+class Shape{
+    void draw(){
+        System.out.println("Drawing class");
+    }
+}
+class circle extends Shape{
+    void draw(){
+        System.out.println("Drawing circle");
+    }
+}
+class square extends Shape{
+    void draw(){
+        System.out.println("Drawing Square");
+    }
+}
+
+public class Dynamic{
+    public static void main(String[]args){
+        Shape s1 = new circle();
+        s1.draw();
+
+        Shape s2 = new square();
+        s2.draw();
+    }
+}
