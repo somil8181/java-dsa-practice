@@ -1,0 +1,21 @@
+import java.util.*;
+public class Stack3 {
+    public static void  main(String[]args){
+    Stack<Integer> st = new Stack<>();
+
+    st.push(100);
+    st.push(200);
+    st.push(300);
+    st.push(400);
+    st.push(500);
+
+    int sum = 0;
+
+    for(int x : st){
+        sum = sum + x;
+    }
+     double average = (double) sum / st.size();
+     System.out.println("Average:"+average);
+
+    }
+}
