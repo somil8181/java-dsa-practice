@@ -1,0 +1,25 @@
+import java.util.*;
+public class Stack4 {
+    public static void main(String[]args){
+        Stack<Integer> st1 = new Stack<>();
+        Stack<Integer> st2 = new Stack<>();
+
+        st1.push(100);
+        st1.push(200);
+        st1.push(300);
+        st1.push(400);
+
+        st2.push(1000);
+        st2.push(200);
+        st2.push(300);
+        st2.push(400);
+
+        if(st1.equals(st2)){
+            System.out.println("Both stacks are equal");
+
+        }else{
+            System.out.println("Both Stacks are not equal");
+        }
+
+    }
+}
