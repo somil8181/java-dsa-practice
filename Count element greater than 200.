@@ -1,0 +1,20 @@
+import java.util.*;
+public class Stack2 {
+    public  static void main(String[]args){
+        Stack<Integer> st  =  new  Stack<>();
+        st.push(100);
+        st.push(200);
+        st.push(300);
+        st.push(400);
+        st.push(500);
+
+        int  count = 0;
+        for(int x : st){
+        if(x>200){
+            count++;
+        }
+        
+        }
+        System.out.println(count);
+    }
+}
